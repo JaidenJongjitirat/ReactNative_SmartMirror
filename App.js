@@ -13,11 +13,12 @@ import * as Location from "expo-location";
 import axios from "axios";
 
 // API keys
-import { WEATHER_API_KEY } from "./secrets/key";
-import { NEWS_API_KEY } from "./secrets/key";
+import { WEATHER_API_KEY } from "/key";
+import { NEWS_API_KEY } from "/key";
 
 // Icons and weatherStyles
 import { Ionicons } from "@expo/vector-icons";
+// Place the weatherStyles file in "assets" or any other folder you'd like
 import { weatherStyles } from "./assets/weatherStyles";
 
 //Components
